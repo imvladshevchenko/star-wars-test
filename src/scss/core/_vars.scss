@@ -1,0 +1,72 @@
+// Natural/Dark
+$ND1: #000000;
+$ND2: #202020;
+$ND3: #303030;
+$ND4: #6a6a6a;
+$ND5: #999999;
+$ND6: #cbc6c0;
+$ND7: #6F6B65;
+$ND8: #e6e7eb;
+$ND9: #999999;
+
+// Natural/Light
+
+$NL1: #f4f5f9;
+$NL2: #ffffff;
+$NL3: #f1ebe7;
+
+// Red
+$R1: #e74c3c;
+$R2: #e74e3e;
+
+
+/* ---FONT SIZE--- */
+@function calcRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+$H72: calcRem(72px);
+$H45: calcRem(45px);
+$H40: calcRem(40px);
+$H36: calcRem(36px);
+$H32: calcRem(32px);
+$H30: calcRem(30px);
+$H28: calcRem(28px);
+$H24: calcRem(24px);
+$H22: calcRem(22px);
+$H20: calcRem(20px);
+$H18: calcRem(18px);
+$H16: calcRem(16px);
+$H15: calcRem(15px);
+$H14: calcRem(14px);
+$H13: calcRem(13px);
+$H12: calcRem(12px);
+$H11: calcRem(11px);
+$H10: calcRem(10px);
+$H9: calcRem(9px);
+$H8: calcRem(8px);
+
+// FONTS
+
+@font-face {
+  font-family: "HelveticaRegular";
+  src: url('~@/assets/fonts/HelveticaRegular/HelveticaRegular.woff');
+}
+
+@font-face {
+  font-family: "HelveticaThin";
+  src: url('~@/assets/fonts/HelveticaThin/HelveticaThin.woff');
+}
+
+@font-face {
+  font-family: "GTWalsheimPro";
+  src: url('~@/assets/fonts/GTWalsheimPro/GTWalsheimPro-Thin.woff');
+}
+
+$base-font: 'HelveticaRegular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+  'Droid Sans', 'Helvetica Neue', sans-serif;
+$sec-font: 'HelveticaThin', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+  'Droid Sans', 'Helvetica Neue', sans-serif;
+$footer-font: 'GTWalsheimPro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+  'Droid Sans', 'Helvetica Neue', sans-serif;
