@@ -10,14 +10,12 @@
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "element-ui": "^2.15.0",
-    "nouislider": "^14.7.0",
     "uikit": "^3.6.19",
     "vue": "^2.6.11",
     "vue-router": "^3.5.1",
     "vuikit": "^0.8.10"
   },
   "devDependencies": {
-    "@types/nouislider": "^9.0.10",
     "@types/uikit": "^3.3.1",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
