@@ -276,7 +276,7 @@ export default {
   mounted() {
     preloader.style.display = "flex";
     try {
-      axios.get("http://swapi.dev/api/people/").then((response) => {
+      axios.get("https://swapi.dev/api/people/").then((response) => {
         this.peopleList = response.data.results;
         preloader.style.display = "none";
       });
